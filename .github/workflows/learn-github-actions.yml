@@ -12,3 +12,4 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
+      - uses: actions/setup-node@v6.1.0
